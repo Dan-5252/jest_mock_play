@@ -3,12 +3,21 @@
   "version": "1.0.0",
   "description": "Starter project with sample Jest tests",
   "main": "src/index.js",
+  "type": "module",
   "dependencies": {
     "jest": "25.1.0"
   },
   "devDependencies": {
-    "@babel/core": "7.2.0",
+    "@babel/core": "^7.20.7",
+    "@babel/plugin-transform-modules-commonjs": "^7.20.11",
+    "babel-jest": "^29.3.1",
+    "cross-env": "^7.0.3",
     "parcel-bundler": "^1.6.1"
   },
-  "keywords": ["javascript", "starter", "jest", "test"]
+  "keywords": [
+    "javascript",
+    "starter",
+    "jest",
+    "test"
+  ]
 }
